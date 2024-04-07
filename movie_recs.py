@@ -4,10 +4,8 @@ import requests
 import json
 
 """
-
     Embedding generation normally without openAI, using Huggingface API :
     "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
-
 """
 
 client = pymongo.MongoClient(os.getenv("PYMONGO_URL"))
