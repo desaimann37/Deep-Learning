@@ -1,0 +1,11 @@
+# Ignore config.json
+config.json
+
+# Other standard entries (optional)
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.pyc
+
+# Ignore environment-specific files
+.env
